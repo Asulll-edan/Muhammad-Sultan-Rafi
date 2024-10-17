@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.home {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #9c9393;
+    font-size: 15px;
+    list-style-type: none;
+    padding: 10px;
+    margin: 20px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.home:hover {
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 10px black;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 20px;
+    transition: .5s ease;
+    transition-delay: .2s;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    list-style-type: none;
+}
+
+.home a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+header {
+    box-shadow: 3px 3px 10px black;
+    background: #ba8585;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    margin: 20px 0;
+}
+
+div {
+    background: white;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-photo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    color: #000000;
+}
